@@ -1,0 +1,42 @@
+.Personal {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.Personal__intro {
+    height: 100%;
+    width: 100%;
+    background-color: #e16a8b;
+    padding: 2% 2% 2% 2%;
+    margin: 0 0 1% 0;
+}
+
+.intro__title {
+    font-size: 5rem;
+    font-weight: 800;
+    margin-bottom: 2%;
+}
+
+.Personal__history {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+    .Personal__intro {
+        padding: 3% 3% 3% 3%;
+    }
+
+    .intro__title {
+        font-size: 3rem;
+    }
+
+    .intro__copy {
+        font-size: 1.6rem;
+        line-height: 120%;
+    }
+
+}

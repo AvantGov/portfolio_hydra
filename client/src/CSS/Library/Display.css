@@ -1,0 +1,37 @@
+.Display {
+    position: absolute;
+    top: 5%;
+    bottom: 5%;
+    left: 5%;
+    right: 5%;
+    height: 90%;
+    width: 90%;
+    background-color: #373e45;
+    color: #FFFFFF;
+    border: 5px solid #ffffff;
+    border-radius: 10px;
+    overflow-y: scroll;
+    font-family: 'Courier New', Courier, monospace;    
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.Display::-webkit-scrollbar {
+    display: none;
+}
+  
+/* Hide scrollbar for IE, Edge and Firefox */
+.Display {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+@media only screen and (max-width: 700px) {
+    .Display {
+        padding: 0 0 0 0;
+    }
+}

@@ -1,0 +1,82 @@
+.AudioController {
+    position: absolute;
+    top: 90%;
+    bottom: 5%;
+    left: 20%;
+    right: 5%;
+    height: 90%;
+    width: 90%;
+    height: 6%;
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: none;
+}
+
+.AudioController__audio {
+    width: 80%;
+    height: 100%;
+    border: 7px ridge #e16a8b;
+    border-radius: 25px;
+}
+
+.AudioController__esc {
+    height: 100%;
+    width: 15%;
+    border: 7px ridge #e16a8b;
+    border-radius: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    transition: .2s ease-in-out;
+    text-decoration: none;
+    color: #000000;
+}
+
+.AudioController__esc:hover {
+    border-color: #ffffff;
+    background-color: #e16a8b;
+    color: #ffffff;
+}
+
+
+@media only screen and (min-height: 1080px) {
+    .AudioController__esc {
+        height: 50%;
+        margin-top: 5%;
+    }
+}
+
+@media only screen and (max-width: 1100px) {
+    .AudioController__audio {
+        border: none;
+        top: 70%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .AudioController {
+
+        height: 20%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        display: none;
+        top: 80%;
+        bottom: 5%;
+        left: 20%;
+        right: 5%;
+    }
+
+    .AudioController__audio {
+        height: 50%;
+        width: 100%;
+        border: none;
+    }
+
+    .AudioController__esc {
+        width: 80%;
+        height: 40%;
+    }
+
+}

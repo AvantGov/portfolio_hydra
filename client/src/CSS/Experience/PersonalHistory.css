@@ -1,0 +1,105 @@
+.PersonalHistory {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.PersonalHistory__histContainer {
+    height: 100%;
+    width: 90%;
+    padding: 2.25% 2% 2% 2%;
+    margin: 1% 0 1% 2%;
+    border-radius: 25px;
+    transition: .3s ease-in-out;
+    border: 5px solid #f2d471;
+    margin-bottom: 3%;
+}
+
+
+.histContainer__title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1%;
+    color: #e16a8b;
+}
+
+.histContainer__company {
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: .25%;
+    color: #e16a8b;
+
+}
+
+.histContainer__date {
+    font-style: italic;
+    margin-bottom: 1.25%;
+    color: #e16a8b;
+
+}
+
+.histContainer__bullet {
+    margin-bottom: 2%;
+    line-height: 130%;
+    width: 85%;
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .PersonalHistory {
+        padding: 2% 0 2% 0;
+    }
+
+    .PersonalHistory__histContainer {
+        padding: 3% 3% 2% 3%;
+        width: 95%;
+    }
+
+    .histContainer__desc {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+
+    .histContainer__title {
+        font-size: 2.2rem;
+        margin-bottom: 2%;
+    }
+
+    .histContainer__company {
+        font-size: 1.6rem;
+        margin-bottom:  2%;
+    }
+
+    .histContainer__date {
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-bottom: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .PersonalHistory {
+        padding-top: 4%;
+    }
+
+    .PersonalHistory__histContainer {
+        border: none;   
+        border-radius: 0px;
+        border-bottom: 5px ridge #f2d471; 
+        padding-bottom: 4%;
+    }
+
+    .histContainer__title {
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+
+    .PersonalHistory > :nth-child(4) {
+        border-bottom: none;
+    }
+}

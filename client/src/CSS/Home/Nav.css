@@ -1,0 +1,43 @@
+.Nav {
+    height: 10%;
+    width: 90%;
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1% 2% 1% 2%;
+    background-image: url("../../assets/textures/worms.svg");
+    background-color: #e16a8b;
+    margin-top: 2%;
+}
+
+
+
+.Nav__link {
+    font-weight: 800;
+    transition: .3s ease-in-out;
+    padding: .5% 1% .5% 1%;
+    border-radius: 5px;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+.Nav__link:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+    background-color: #e16a8b;
+}
+
+@media only screen and (max-height: 450px) {
+    .Nav {
+        padding: 3% 2% 3% 2%;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .Nav {
+        display: none;
+    }
+}

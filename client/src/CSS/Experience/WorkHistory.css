@@ -1,0 +1,103 @@
+.WorkHistory {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.WorkHistory__posContainer {
+    height: 100%;
+    width: 90%;
+    padding: 2.25% 2% 1% 2%;
+    margin: 1% 0 1.5% 2%;
+    border-radius: 25px;
+    transition: .3s ease-in-out;
+    border: 5px solid #f2d471;
+    margin-bottom: 3%;
+}
+
+.posContainer__title {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 1%;
+    color: #e16a8b;
+}
+
+.posContainer__company {
+    font-style: italic;
+    font-weight: 800;
+    margin-bottom: .25%;
+    color: #e16a8b;
+
+}
+
+.posContainer__dates {
+    font-style: italic;
+    margin-bottom: 1.25%;
+    color: #e16a8b;
+
+}
+
+.posContainer__bullet {
+    margin-bottom: 2%;
+    line-height: 130%;
+    width: 85%;
+}
+
+@media only screen and (max-width: 1000px) {
+    .WorkHistory {
+        padding: 2% 0 2% 0;
+    }
+
+    .WorkHistory__posContainer {
+        padding: 3% 3% 2% 3%;
+        width: 95%;
+    }
+
+    .posContainer__bullet {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+
+    .posContainer__title {
+        font-size: 2.2rem;
+        margin-bottom: 2%;
+    }
+
+    .posContainer__company {
+        font-size: 1.6rem;
+        margin-bottom:  2%;
+    }
+
+    .posContainer__dates {
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-bottom: 3%;
+    }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .WorkHistory {
+        padding-top: 4%;
+    }
+
+    .WorkHistory__posContainer {
+        border: none;   
+        border-radius: 0px;
+        border-bottom: 5px ridge #f2d471; 
+        padding-bottom: 4%;
+    }
+
+    .posContainer__title {
+        font-size: 2rem;
+        margin-bottom: 3%;
+    }
+
+    .WorkHistory > :nth-child(4) {
+        border-bottom: none;
+    }
+}
