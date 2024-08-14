@@ -6,6 +6,7 @@ import Home from '../_Pages/Home.jsx';
 import Work from '../_Pages/Work.jsx';
 import Personal from '../_Pages/Personal.jsx';
 import Showcase from '../Showcase/Showcase.jsx';
+import FourOhFour from './404.jsx';
 
 // * data 
 import { pf } from '../../assets/portfolio.js';
@@ -44,7 +45,11 @@ const Display = () => {
         {
             path: "/Photography",
             element: <Showcase props={pf.Photography} />
-        }   
+        },
+        {
+            path: "*",
+            element: <FourOhFour />
+        }
       ])
 
     return(
