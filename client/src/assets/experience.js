@@ -69,7 +69,7 @@ export const personalhistory = [
     },
     {
         id: "pers_2",
-        company: "SampleSwap.org",
+        company: "SampleSwap",
         dates: "2022",
         desc: "Database file-naming issue that prevented access to a portion of the website reported and confirmed by website admin. Bug bounty awarded as honorary premium membership to the website's sample library."
     },
