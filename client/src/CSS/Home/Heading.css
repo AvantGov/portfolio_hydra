@@ -1,8 +1,9 @@
 .Heading {
-    height: 40%;
-    width: 99%;
-    margin-top: 2%;
-    padding: 2% 2% 2% 2%;
+    height: 55%;
+    width: 100%;
+    /* margin-top: 2%; */
+    padding: 5% 2% 5% 2%;
+    background-color: #000000;
 }
 
 .Heading__title {
@@ -23,37 +24,37 @@
 
 @media only screen and (max-height: 960px) {
     .Heading {
-        margin-bottom: 8%;
+        padding-bottom: 8%;
     }
 }
 
 @media only screen and (max-height: 760px) {
     .Heading {
-        margin-bottom: 12%;
+        padding-bottom: 12%;
     }
 }
 
 @media only screen and (max-height: 650px) {
     .Heading {
-        margin-bottom: 16%;
+        padding-bottom: 16%;
     }
 }
 
 @media only screen and (max-height: 550px) {
     .Heading {
-        margin-bottom: 20%;
+        padding-bottom: 20%;
     }
 }
 
 @media only screen and (max-height: 450px) {
     .Heading {
-        margin-bottom: 24%;
+        padding-bottom: 24%;
     }
 }
 
 @media only screen and (max-height: 360px) {
     .Heading {
-        margin-bottom: 28%;
+        padding-bottom: 28%;
     }
 }
 
@@ -64,13 +65,17 @@
     }
     .Heading__title {
         font-size: 3rem;
+        text-align: center;
     }
     .Heading__subtitle {
         font-size: 2.6rem;
         font-weight: 900;
+        text-align: center;
     }
 
     .Heading__leade {
         font-size: 1.6rem;
+        text-align: center;
+        width: 100%;
     }
 }

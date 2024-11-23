@@ -1,8 +1,8 @@
 .Footer {
     height: 100%;
     width: 100%;
-    background-color: #f2d471;
-    color: #000000;
+    background-color: #000000;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     align-items: start;
@@ -30,8 +30,8 @@
 .sitemapContainer__link {
     margin: 1.5% 0 1.5% 2% ;
     text-decoration: none;
-    color: #373e45;
-    border: 1px solid #373e45;
+    color: #e16a8b;
+    border: 1px solid #e16a8b;
     transition: .2s ease-in-out;
     font-weight: 800;
     width: 30%;
@@ -73,11 +73,11 @@
     justify-content: center;
     transition: .3s ease-in-out;
     border-radius: 25px;
-    border: 8px solid #f2d471;
+    background-color: #e16a8b;
+
 }
 
 .socialContainer__svgLink:hover {
-    border: 8px solid #e16a8b;
     background-color: #ffffff;
 }
 
@@ -140,6 +140,7 @@
     }
 
     .Footer__sitemapContainer {
+        display: none;
         height: 100%;
         width: 100%;
         flex-direction: column;
@@ -150,8 +151,8 @@
     .sitemapContainer__link {
         margin-left: 2%;
         text-decoration: none;
-        color: #373e45;
-        border: .5px solid #373e45;
+        color: #ffffff;
+        border: .5px solid #ffffff;
         transition: .2s ease-in-out;
         width: 30%;
         font-size: 1.4rem;
@@ -196,16 +197,18 @@
     }
 
     #spotify_svg {
-        height: 50px;
+        height: 40px;
         width: 65px;
+    }
+
+    #github_svg {
+        height: 40px;
     }
 
     .socialContainer__svgLink {
         border: none;
+        border-radius: 0px;
     }
 
-    .socialContainer__svgLink:hover {
-        border: none;
-        background-color: transparent;
-    }
+
 }

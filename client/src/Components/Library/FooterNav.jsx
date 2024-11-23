@@ -11,9 +11,7 @@ const FooterNav = (props) => {
     const pr = props.props
 
     return(
-        <div id='FooterNav' className='FooterNav' style={{
-                backgroundColor: pr.color, 
-            }}>
+        <div id='FooterNav' className='FooterNav'>
             <Link className='FooterNav__link' id='footer_navlink_1' onClick={toHomeTop} to='/'>Home</Link>
             <Link className='FooterNav__link' id='footer_navlink_5' onClick={toShowcaseTop} to='/Development'>Development</Link>
             <Link className='FooterNav__link' id='footer_navlink_2' onClick={toShowcaseTop} to='/Design'>Design</Link>

@@ -9,13 +9,11 @@
 
 .PersonalHistory__histContainer {
     height: 100%;
-    width: 90%;
-    padding: 2.25% 2% 2% 2%;
-    margin: 1% 0 1% 2%;
-    border-radius: 25px;
+    width: 100%;
+    padding: 5.25% 2% 5% 2%;
     transition: .3s ease-in-out;
-    border: 5px solid #f2d471;
-    margin-bottom: 3%;
+    background-color: #000000;
+    border-bottom: 1px solid #ffffff;
 }
 
 
@@ -50,12 +48,11 @@
 
 @media only screen and (max-width: 1000px) {
     .PersonalHistory {
-        padding: 2% 0 2% 0;
+        padding: 5% 0 5% 0;
     }
 
     .PersonalHistory__histContainer {
-        padding: 3% 3% 2% 3%;
-        width: 95%;
+        padding: 7% 3% 2% 3%;
     }
 
     .histContainer__desc {
@@ -88,10 +85,9 @@
     }
 
     .PersonalHistory__histContainer {
-        border: none;   
+        border-bottom: .25px solid #ffffff;
         border-radius: 0px;
-        border-bottom: 5px ridge #f2d471; 
-        padding-bottom: 4%;
+        padding-bottom: 7%;
     }
 
     .histContainer__title {

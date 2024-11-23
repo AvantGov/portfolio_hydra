@@ -5,7 +5,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    margin-top: 2%;
 }
 
 .ExperienceJump__jumpLink {
@@ -19,25 +18,18 @@
     font-weight: 900;
     transition: .4s ease-in-out;
     font-size: 3.2rem;
-    background-color: #f2d471;
-    color: #373e45;
-    border-top: 8px solid #f2d471;
-    border-bottom: 8px solid #f2d471;
+    background-color: #000000;
+    color: #ffffff;
+
     text-decoration: underline;
 }
 
 #personal:hover {
-    border-top: 8px dashed #f2d471;
-    border-bottom: 8px dashed #f2d471;
-    background-color: #373e45;
-    color: #f2d471;
+    color: #e16a8b;
 }
 
 #workprofessional:hover {
-    border-top: 8px dashed #f2d471;
-    border-bottom: 8px dashed #f2d471;
-    background-color: #373e45;
-    color: #f2d471;
+    color: #e16a8b;
 }
 
 

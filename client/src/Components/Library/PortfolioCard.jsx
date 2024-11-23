@@ -10,9 +10,10 @@ const PortfolioCard = (props) => {
     var count = 0;
 
     return(
+        <Link className='PortfolioCard_link' to={`/${pf.title}`}>
         <div className="PortfolioCard" id="PortfolioCard">
             <div className="PC__introContainer">
-                <h1 className="introContainer__title">{pf.title}</h1>
+                <h1 className="introContainer__title">{pf.title} &#8702;</h1>
                 <p className="introContainer__desc">{pf.desc}</p>
             </div>
             {/* <div className="PC__cardContainer">
@@ -29,10 +30,11 @@ const PortfolioCard = (props) => {
                     }
                 })}
             </div> */}
-            <Link className='PC__PageLink' to={`/${pf.title}`}>
+            {/* <Link className='PC__PageLink' to={`/${pf.title}`}>
                 <div className='PageLink__block'>See more</div>
-            </Link>
+            </Link> */}
         </div>
+        </Link>
     )
 }
 

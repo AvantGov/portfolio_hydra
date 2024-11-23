@@ -54,5 +54,6 @@ export const _createVis = (context) => {
     .scale(2)
     .out();
 
+
     return canvas
 }

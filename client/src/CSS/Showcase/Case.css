@@ -2,17 +2,14 @@
     height: 100%;
     width: 200%;
     display: flex;
-    border-top: 1px solid #ffffff;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     transition: .3s ease-in-out;
-    opacity: 80%;
+    background-color: #000000;
+    border-bottom: .25px solid #ffffff;
 }
 
-.Showcase__case:hover {
-    opacity: 100%;
-}
 
 .case__coverContainer {
     height: 100%;
@@ -30,18 +27,21 @@
 
 .case__infoContainer {
     height: 100%;
-    width: 33%;
+    width: 43%;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding: 2% 0 2.5% 0;
     margin-left: 1%;
+    padding: 3% 0 3% 0;
+
 }
 
 .case__title {
     font-size: 3.6rem;
     font-weight: 800;
     margin-bottom: 1%;
+    color: #e16a8b;
 }
 
 .title__year {
@@ -73,6 +73,7 @@
     display: flex;
     font-size: 1.6rem;
     font-style: italic;
+    width: 100%;
 }
 
 .bulletContainer__bullet > p {
@@ -110,7 +111,7 @@
 }
 
 .Showcase__viewCtrl:hover {
-    background-color: #373e45;
+    background-color: #000000;
     text-decoration: underline;
     color: #e16a8b;
 }
@@ -118,7 +119,7 @@
 .Showcase__sampleContainer {
     height: 100%;
     width: 45%;
-    background-color: #f2d471;
+    background-color: #e16a8b;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -196,7 +197,6 @@
     .Showcase__case {
         flex-direction: column;
         opacity: 100%;
-        border: none;
     }
 
     .case__coverContainer {
