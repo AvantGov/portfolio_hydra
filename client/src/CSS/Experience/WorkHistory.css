@@ -9,13 +9,11 @@
 
 .WorkHistory__posContainer {
     height: 100%;
-    width: 90%;
-    padding: 2.25% 2% 1% 2%;
-    margin: 1% 0 1.5% 2%;
-    border-radius: 25px;
+    width: 100%;
+    padding: 5.25% 2% 5% 2%;
     transition: .3s ease-in-out;
-    border: 5px solid #f2d471;
-    margin-bottom: 3%;
+    background-color: #000000;
+    border-bottom: 1px solid #ffffff;
 }
 
 .posContainer__title {
@@ -48,12 +46,11 @@
 
 @media only screen and (max-width: 1000px) {
     .WorkHistory {
-        padding: 2% 0 2% 0;
+        padding: 5% 0 5% 0;
     }
 
     .WorkHistory__posContainer {
-        padding: 3% 3% 2% 3%;
-        width: 95%;
+        padding: 7% 3% 2% 3%;
     }
 
     .posContainer__bullet {
@@ -86,9 +83,8 @@
     }
 
     .WorkHistory__posContainer {
-        border: none;   
+        border-bottom: .25px solid #ffffff;
         border-radius: 0px;
-        border-bottom: 5px ridge #f2d471; 
         padding-bottom: 4%;
     }
 

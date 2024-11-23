@@ -65,13 +65,17 @@
     }
     .Heading__title {
         font-size: 3rem;
+        text-align: center;
     }
     .Heading__subtitle {
         font-size: 2.6rem;
         font-weight: 900;
+        text-align: center;
     }
 
     .Heading__leade {
         font-size: 1.6rem;
+        text-align: center;
+        width: 100%;
     }
 }

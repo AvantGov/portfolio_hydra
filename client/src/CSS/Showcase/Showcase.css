@@ -29,8 +29,7 @@
     align-items: flex-start;
     justify-content: space-around;
     padding: 2% 2% 2% 2%;
-    background-color: #05C3DD;
-    border-bottom: 2px solid #ffffff;
+    background-color: transparent;
 }
 
 .caseLable__title {
