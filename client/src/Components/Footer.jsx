@@ -23,7 +23,7 @@ const Footer = () => {
             </div>
             <div className="Footer__socialContainer">
                 <a href="https://github.com/AvantGov" target="_blank" rel="noopener noreferer" className="socialContainer__svgLink">
-                    <img className="svglink__img" src='github-mark.svg' />
+                    <img className="svglink__img" id='github_svg' src='github-mark.svg' />
                 </a>
                 <a href="https://www.behance.net/AlexCouts" target="_blank" rel="noopener noreferer" className="socialContainer__svgLink" id='behance'>
                     <img className="svglink__img" id='behance_svg' src='Behance_logo.svg' />

@@ -37,7 +37,8 @@ export const _createHydra = (context) => {
     hydra.setResolution(getResoWidth(),getResoHeight())
     hydra.fps = 30
     console.log("hydra:",hydra)
-    hydra.gradient(.75).color(0.253,0.098,0.158).add(hydra.osc(3,-0.25,50).color(0.253,0.098,0.158)).pixelate(10,1).out()
+    // hydra.shape(1,1).rotate(1,0.5).color(0.09,2.43,0.65).mult(hydra.voronoi(1000,0.25).blend(hydra.o0).luma()).out()
+    hydra.osc(10, 0.01).rotate(0, 0.01).mult(hydra.osc(5, 0.1).modulate(hydra.osc(5).rotate(7, -0.1), .5)).color(1.25,0.21,8.19).out()
 
     return canvas
 }
