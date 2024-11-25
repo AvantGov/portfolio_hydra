@@ -31,6 +31,7 @@ export const workhistory = [
         dates: "Apr 2020 - July 2021",
         bullets: [
             "Quality Assurance Tester for the Framework & Interoperability team @ MyChart, specailizing in multi-factor authentication, account activation, and web-service branding.",
+            "Core duties included ensuring functional excellence of dataflows between client and intermediary web servers through manual workflow testing and reporting, while following up with RnD channels to source and resolve found issues.",
             "Participated in core testing for technolgies supporting COVID testing + vaccine relief projects.",    
         ]
     },
