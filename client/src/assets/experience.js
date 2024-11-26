@@ -9,11 +9,13 @@ export const workhistory = [
             "Guided collaboration between team members and management to plan effective software designs by translating complex business needs into intuitive applications and workflows.",
             "Mitigated issues in existing applications while building new and revised applications, reports, automations, and dashboards for multiple departments.",
             "Automated cross-department workflows between Quickbase and external software platforms to increase team performance while balancing database efficiency.",
+            "Filled interim I.T. Manager role while leading hiring and training for permanent I.T Manager. Advised and assisted I.T. Manager during severe network outages; collaboratively rebuilding and expanding network infrastructure. ",
+            "Designed, constructed, and implemented ticketing software and protocol across the organization to streamline I.T. Manager operations. Created action-triggered email notifications and automated dataflows to support effective and efficient work across I.T. department. "
         ]
     },
     {
         id: "pos_2",
-        title: "Web Developer",
+        title: "Web Developer + Integrator",
         company: "Audio Contractors LLC",
         location: "Madison, WI",
         dates: "Nov 2021 - July 2023",
@@ -21,6 +23,8 @@ export const workhistory = [
             "Overhauled customer-facing marketing website with updated copy and media.",
             "Engineered customer payment solution in collaboration with payment gateway provider, introducing surcharge solution that reduces operational fees by $3,000 per year.",
             "Created employee application workflow, standardizing cost of all submissions to $10/month, as opposed to per-applicant pricing on recruiting platforms.",
+            "Integrated wide vareity of consumer and commercial-grade networked infrastructure solutions including but not limited to: home automation (IR, RF, Zigbee), networked conferencing, MoIP, and multi-source RTSP protocol streaming. ",
+            "Resolved complex consumer networking issues along the bottom 4 layers of the OSI model using subnets configuration, trunking, spanning tree protocol and more. Diagnosed issues with tools such as nmap, wireshark, and linSSID."
         ]
     },
     {
