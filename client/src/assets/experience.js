@@ -15,16 +15,16 @@ export const workhistory = [
     },
     {
         id: "pos_2",
-        title: "Web Developer + Integrator",
+        title: "Web Developer (service contract)",
         company: "Audio Contractors LLC",
         location: "Madison, WI",
-        dates: "Nov 2021 - July 2023",
+        dates: "Nov 2022 - Current",
         bullets: [
-            "Overhauled customer-facing marketing website with updated copy and media.",
-            "Engineered customer payment solution in collaboration with payment gateway provider, introducing surcharge solution that reduces operational fees by $3,000 per year.",
+            "Overhauled customer-facing marketing website with updated design, copy, and media",
+            "Integrated customer payment solution in collaboration with payment gateway provider, introducing surcharge solution that reduces operational fees by $3,000 per year.",
             "Created employee application workflow, standardizing cost of all submissions to $10/month, as opposed to per-applicant pricing on recruiting platforms.",
-            "Integrated wide vareity of consumer and commercial-grade networked infrastructure solutions including but not limited to: home automation (IR, RF, Zigbee), networked conferencing, MoIP, and multi-source RTSP protocol streaming. ",
-            "Resolved complex consumer networking issues along the bottom 4 layers of the OSI model using subnets configuration, trunking, spanning tree protocol and more. Diagnosed issues with tools such as nmap, wireshark, and linSSID."
+            "Engineered customer service workflow allowing technicians to mitigate minor technical issues via email, reducing truck rolls by 15%.",
+            "Wrote and deployed interactive web guides geared towards new home owners, providing information about basic home networking set up with ISP equipment."
         ]
     },
     {
@@ -50,6 +50,32 @@ export const workhistory = [
             "Created analytic dashboard for auditing and managing internal communication software used between the Global Product team and all customer-facing teams.",    
         ]
     },
+    {
+        id: "pos_5",
+        title: "System Integrator",
+        company: "Audio Contractors LLC",
+        location: "Madison, WI",
+        dates: "Nov 2021 - July 2023",
+        bullets: [
+            "Integrated wide variety of consumer and commercial-grade networked infrastructure solutions including but not limited to: home automation (IR, RF, Zigbee), networked conferencing, MoIP, and multi-source RTSP protocol streaming.",
+            "Resolved complex consumer networking issues along the bottom 4 layers of the OSI model using subnets configuration, trunking, spanning tree protocol, and more. Diagnosed issues with tools such as nmap, wireshark, and linSSID.",
+            "Planned and executed low-voltage wire runs for new construction and retrofitting projects in commercial and residential settings. Terminated and prepped cabling for rack systems including RJ45 A and B, Coaxial, 1/8in and 1/4in TS and TRS, XLR, DMX, and Speakon.",
+            "Diagnosed and resolved issues with commercial control systems such as Q-SYS and Kramer, administering system updates with subsequent regression testing."
+        ]
+    },
+    {
+        id: "pos_6",
+        title: "FOH Audio Engineer + Lighting Technician",
+        company: "New Wave Nation",
+        location: "Canton, OH",
+        dates: "Dec 2015 - Dec 2018",
+        bullets: [
+            "Maintained and calibrated sound system (Behringer X32 console), performing thorough sound checks prior to events. Conducted maintenance and troubleshooting of all audio systems to ensure reliability during events.",
+            "Mixed live audio to achieve the desired sound quality, ensuring a memorable experience for attendees.",
+            "Calibrated and operated DMX lighting system during performance in accordance with setlist, highlighting pivotal performance moments indicated by performers."
+        ]
+    },
+
 
 ];
 
